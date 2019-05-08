@@ -41,7 +41,7 @@ public class Main extends Application {
 			usuarioLogado = usuarios.get(0);
 		} else {
 			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Mensagem de Alerta");
+			alert.setTitle("Alerta");
 			alert.setHeaderText(null);
 			alert.setContentText("Login ou senha inválido!");
 
