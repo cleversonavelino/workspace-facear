@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javafx.application.Application"/>
+<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.telas.ViewUsuario"/>
+<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.dao.GenericDao"/>
+<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.entidade.Usuario"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
+<fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
+<fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
+<fullyQualifiedTypeName name="javafx.beans.property.SimpleIntegerProperty"/>
+<fullyQualifiedTypeName name="javafx.beans.property.SimpleStringProperty"/>
+<fullyQualifiedTypeName name="java.util.stream.Collector"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
+<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.entidade.UsuarioModel"/>
+</qualifiedTypeNameHistroy>
