@@ -13,13 +13,14 @@
           <TableColumn id="id" fx:id="id" prefWidth="75.0" text="ID" />
           <TableColumn id="nome" fx:id="nome" prefWidth="200.0" text="NOME" />
           <TableColumn id="login" fx:id="login" prefWidth="200.0" text="LOGIN" />
+            <TableColumn prefWidth="75.0" />
         </columns>
       </TableView>
       <Label layoutX="14.0" layoutY="240.0" text="ID" />
       <Label layoutX="13.0" layoutY="274.0" text="NOME" />
       <Label layoutX="13.0" layoutY="307.0" text="LOGIN" />
       <Label layoutX="12.0" layoutY="341.0" text="SENHA" />
-      <Button  onAction="#salvar" id="btnSalvar" fx:id="btnSalvar" layoutX="71.0" layoutY="374.0" mnemonicParsing="false" text="SALVAR" />
+      <Button id="btnSalvar" fx:id="btnSalvar" layoutX="71.0" layoutY="374.0" mnemonicParsing="false" onAction="#salvar" text="SALVAR" />
       <TextField id="txtId" fx:id="txtId" layoutX="71.0" layoutY="236.0" />
       <TextField id="txtNome" fx:id="txtNome" layoutX="71.0" layoutY="270.0" />
       <TextField id="txtLogin" fx:id="txtLogin" layoutX="71.0" layoutY="303.0" />

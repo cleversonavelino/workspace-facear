@@ -51,7 +51,7 @@ public class ViewUsuario extends Application implements Initializable {
 		if (txtId.getText().isEmpty()) {
 			usuarioDao.inserir(usuario);
 		} else {
-			usuario.setId(Integer.valueOf(txtId.getText()));
+			usuario.setId(Integer.valueOf(txtId.getText());
 			usuarioDao.alterar(usuario);
 		}
 
@@ -93,12 +93,8 @@ public class ViewUsuario extends Application implements Initializable {
 
 			@Override
 			public void handle(MouseEvent event) {
-				if (event.getButton().equals(MouseButton.PRIMARY) && 
-						event.getClickCount() == 2){
-					Usuario usuario = tabelaUsuario.getSelectionModel().getSelectedItem();
-					txtId.setText(usuario.getId().toString());
-					txtNome.setText(usuario.getNome());
-					txtLogin.setText(usuario.getLogin());					
+				if (event.getButton().equals(MouseButton.PRIMARY) && event.getClickCount() == 2){
+					
 				}
 
 			}

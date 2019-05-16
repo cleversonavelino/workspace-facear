@@ -38,8 +38,6 @@ public class ViewUsuario extends Application implements Initializable {
 	@FXML TextField txtLogin;
 	@FXML TextField txtSenha;
 
-	private Usuario usuario;
-	
 	@FXML public void salvar(ActionEvent event) {
 		Usuario usuario = new Usuario();
 		usuario.setNome(txtNome.getText());
@@ -47,13 +45,7 @@ public class ViewUsuario extends Application implements Initializable {
 		usuario.setSenha(txtSenha.getText());
 
 		Dao<Usuario> usuarioDao = new GenericDao<Usuario>();
-		
-		if (txtId.getText().isEmpty()) {
-			usuarioDao.inserir(usuario);
-		} else {
-			usuario.setId(Integer.valueOf(txtId.getText()));
-			usuarioDao.alterar(usuario);
-		}
+		usuarioDao.inserir(usuario);
 
 		List<Usuario> usuarios = new GenericDao<Usuario>().listarTodos(Usuario.class);
 		ObservableList<Usuario> data = FXCollections.observableArrayList(usuarios);
@@ -93,12 +85,8 @@ public class ViewUsuario extends Application implements Initializable {
 
 			@Override
 			public void handle(MouseEvent event) {
-				if (event.getButton().equals(MouseButton.PRIMARY) && 
-						event.getClickCount() == 2){
-					Usuario usuario = tabelaUsuario.getSelectionModel().getSelectedItem();
-					txtId.setText(usuario.getId().toString());
-					txtNome.setText(usuario.getNome());
-					txtLogin.setText(usuario.getLogin());					
+				if (event.getButton().equals(MouseButton.PRIMARY) && event.getClickCount() == 2){
+					System.out.println(tabelaUsuario.getSelectionModel().getSelectedItem());
 				}
 
 			}
