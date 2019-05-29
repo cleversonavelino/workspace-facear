@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="master" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.unifacear.projetointegrador3.telas.KanbanView">
+   <children>
+      <HBox prefHeight="481.0" prefWidth="728.0">
+         <children>
+            <VBox fx:id="backlog" prefHeight="481.0" prefWidth="182.0" style="-fx-background-color: green;"/>               
+            <VBox fx:id="doing" prefHeight="481.0" prefWidth="182.0" style="-fx-background-color: grey;" />
+            <VBox fx:id="test" prefHeight="481.0" prefWidth="182.0" style="-fx-background-color: blue;" />
+            <VBox fx:id="done" prefHeight="481.0" prefWidth="182.0" style="-fx-background-color: red;"/>
+         </children>
+      </HBox>
+   </children>
+</Pane>

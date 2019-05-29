@@ -2,10 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javafx.application.Application"/>
 <fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.telas.ViewUsuario"/>
-<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.dao.GenericDao"/>
 <fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.entidade.Usuario"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="javafx.fxml.FXML"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
 <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
 <fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
@@ -15,4 +12,20 @@
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
 <fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.entidade.UsuarioModel"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.dao.GenericDao"/>
+<fullyQualifiedTypeName name="br.edu.unifacear.projetointegrador3.dao.Dao"/>
+<fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
+<fullyQualifiedTypeName name="javafx.scene.Cursor"/>
+<fullyQualifiedTypeName name="javafx.scene.input.MouseEvent"/>
+<fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+<fullyQualifiedTypeName name="javafx.event.Event"/>
+<fullyQualifiedTypeName name="javafx.geometry.Bounds"/>
+<fullyQualifiedTypeName name="javafx.event.EventHandler"/>
+<fullyQualifiedTypeName name="javafx.scene.Node"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
 </qualifiedTypeNameHistroy>

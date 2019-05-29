@@ -10,6 +10,11 @@
 		<item value="709" key="DIALOG_X_ORIGIN"/>
 		<item value="76" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="ExtractMethodWizard">
+		<item value="false" key="GenerateJavadoc"/>
+		<item value="2" key="AccessModifier"/>
+		<item value="false" key="ThrowRuntimeExceptions"/>
+	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
 		<item value="true" key="create_unimplemented"/>
@@ -29,6 +34,10 @@
 		<item value="696" key="DIALOG_HEIGHT"/>
 		<item value="704" key="DIALOG_X_ORIGIN"/>
 		<item value="64" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item value="false" key="SynchronizedModifier"/>

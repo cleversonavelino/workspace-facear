@@ -1134,3 +1134,1875 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.jface.text 2 0 2019-05-15 20:31:41.549
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-05-15 21:19:02.004 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-15 21:23:59.907
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-15 21:24:04.109
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2019-05-16 19:11:26.539 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-16 19:16:45.300
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-16 19:16:50.002
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2019-05-22 19:16:34.950 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-22 19:21:48.511
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: tools.jboss.org. ; version: 2.0.7.v20170906-1327
+!STACK 0
+java.net.UnknownHostException: tools.jboss.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-22 19:21:48.651
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-05-22 19:21:52.155
+!MESSAGE Connection to http://download.jboss.org/jbosstools/oxygen/stable/updates/discovery.earlyaccess/4.5.3.Final/jbosstools-directory.xml failed on download.jboss.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.jboss.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.jboss.tools.discovery.core 4 0 2019-05-22 19:21:52.444
+!MESSAGE All attempts to discover connectors have failed
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2019-05-22 19:21:52.444
+!MESSAGE Failed to get connectors from RemoteProxyWizardDiscoveryStrategy
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unknown Host: http://download.jboss.org/jbosstools/oxygen/stable/updates/discovery.earlyaccess/4.5.3.Final/jbosstools-directory.xml
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:181)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.stream(CachingTransport.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.stream(P2TransportService.java:96)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.stream(WebUtil.java:180)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.readResource(WebUtil.java:98)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.RemoteExternalBundleDiscoveryStrategy.loadRegistry(RemoteExternalBundleDiscoveryStrategy.java:92)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.ExternalBundleDiscoveryStrategy.performDiscovery(ExternalBundleDiscoveryStrategy.java:117)
+	at org.jboss.tools.discovery.core.internal.connectors.ChainedDiscoveryStrategy.performDiscovery(ChainedDiscoveryStrategy.java:68)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery.performDiscovery(ConnectorDiscovery.java:116)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardManager.loadWizards(ProxyWizardManager.java:107)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardUpdateJob.run(ProxyWizardUpdateJob.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.UnknownHostException: download.jboss.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	... 1 more
+!SUBENTRY 2 org.eclipse.equinox.p2.transport.ecf 4 1006 2019-05-22 19:21:52.445
+!MESSAGE Unknown Host: http://download.jboss.org/jbosstools/oxygen/stable/updates/discovery.earlyaccess/4.5.3.Final/jbosstools-directory.xml
+!STACK 0
+java.net.UnknownHostException: download.jboss.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.jboss.tools.central 4 0 2019-05-22 19:21:53.270
+!MESSAGE download.jboss.org
+!STACK 0
+java.net.UnknownHostException: download.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at org.jboss.tools.central.installation.BundleFamilyExtension.loadStream(BundleFamilyExtension.java:81)
+	at org.jboss.tools.central.installation.BundleFamilyExtension.loadBundleList(BundleFamilyExtension.java:47)
+	at org.jboss.tools.central.installation.InstallationChecker.getUnits(InstallationChecker.java:109)
+	at org.jboss.tools.central.installation.InstallationChecker.getEarlyAccessUnits(InstallationChecker.java:97)
+	at org.jboss.tools.central.installation.InstallationChecker.hasEarlyAccess(InstallationChecker.java:90)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage.updateEarlyAccess(GettingStartedHtmlPage.java:352)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage.access$14(GettingStartedHtmlPage.java:350)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage$6$1.run(GettingStartedHtmlPage.java:335)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-22 19:50:54.675
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-22 19:50:54.683
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-22 20:03:44.523
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-22 20:03:44.530
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-22 20:04:08.474
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-22 20:05:16.253
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-22 20:05:16.260
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-05-22 20:15:14.216
+!MESSAGE HTTP Server 'Internal Error': http://download.oracle.com/otn_software/oepe/12.2.1.8/oxygen/repository/dependencies/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 500.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2019-05-22 20:15:14.216
+!MESSAGE HttpComponents connection error response code 500.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-05-22 20:17:40.638
+!MESSAGE Unable to read repository at http://download.jboss.org/jbosstools/oxygen/stable/updates/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-05-22 20:20:19.877
+!MESSAGE Unable to read repository at http://download.jboss.org/jbosstools/updates/webtools/oxygen/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-22 21:39:30.229
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+!SESSION 2019-05-23 09:40:33.927 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.runtime 4 0 2019-05-23 09:43:02.183
+!MESSAGE Invalid input url:platform:/plugin/org.eclipse.fx.ide.fxml/icons/page_white_code_red.png
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.fx.ide.fxml/icons/page_white_code_red.png".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:61)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:226)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:218)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:54)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:408)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:686)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:261)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:240)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:218)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:866)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:131)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:704)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1076)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.jface 4 0 2019-05-23 09:43:02.188
+!MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.fx.ide.fxml/icons/page_white_code_red.png".
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.fx.ide.fxml/icons/page_white_code_red.png".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:61)
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.resolve(PlatformURLPluginConnection.java:70)
+	at org.eclipse.core.internal.boot.PlatformURLHandler.openConnection(PlatformURLHandler.java:66)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:114)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:31)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:207)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:230)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:218)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:54)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:408)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:686)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:261)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:240)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:218)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:866)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:131)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:704)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1076)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.core.runtime 4 0 2019-05-23 09:43:02.188
+!MESSAGE Invalid input url:platform:/plugin/org.eclipse.fx.ide.fxml/icons/page_white_code_red.png
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.fx.ide.fxml/icons/page_white_code_red.png".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:61)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getStream(URLImageDescriptor.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:120)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$3(URLImageDescriptor.java:118)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageDataProvider.getImageData(URLImageDescriptor.java:74)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImageDataAtZoom(DPIUtil.java:393)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:731)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:271)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:240)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:218)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:220)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:866)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:131)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:704)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1076)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-23 09:43:06.937
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:06.984
+!MESSAGE Removing part descriptor with the 'org.eclipse.fx.ide.ui.preview' id and the 'JavaFX Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:07.913
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtend.ide.view.DerivedSourceView' id and the 'Generated Code' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:07.952
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.ui.XtextCallHierarchy' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:07.961
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.xtext.ui.graph.view' id and the 'Xtext Syntax Graph' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:07.971
+!MESSAGE Removing part descriptor with the 'org.eclipse.graphiti.ui.internal.editor.thumbnailview' id and the 'Miniature View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:07.979
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerContainersView' id and the 'Docker Containers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:07.988
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImagesView' id and the 'Docker Images' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.031
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerExplorerView' id and the 'Docker Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.039
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImageHierarchyView' id and the 'Docker Image Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.048
+!MESSAGE Removing part descriptor with the 'org.eclipse.rse.terminals.ui.view.TerminalView' id and the 'Terminals' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.057
+!MESSAGE Removing part descriptor with the 'org.fusesource.ide.jmx.views.MessageView' id and the 'Messages View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.065
+!MESSAGE Removing part descriptor with the 'org.fusesource.ide.jmx.views.DiagramView' id and the 'Diagram View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.075
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.KnownConfigurationsView' id and the 'Hibernate Configurations' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.083
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.QueryPageTabView' id and the 'Hibernate Query Result' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.091
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.DynamicSQLPreviewView' id and the 'Hibernate Dynamic SQL Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.099
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.QueryParametersView' id and the 'Query Parameters' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.109
+!MESSAGE Removing part descriptor with the 'org.jboss.ide.eclipse.archives.ui.ProjectArchivesView' id and the 'Project Archives' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.118
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.forge.ui.console' id and the 'Forge Console' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.126
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jmx.jvmmonitor.ui.JvmExplorer' id and the 'JVM Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.133
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jmx.ui.internal.views.navigator.MBeanExplorer' id and the 'JMX Navigator' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.141
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jst.web.ui.navigator.WebProjectsView' id and the 'Web Projects' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.148
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jst.css.view.editor' id and the 'CSS Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.155
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jst.css.view.preview' id and the 'CSS Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.162
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.openshift.express.ui.explorer.expressConsoleView' id and the 'OpenShift Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.168
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.vpe.preview.view.VpvView' id and the 'HTML Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.175
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.ws.ui.tester.views.TestWSView' id and the 'Web Service Tester' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-05-23 09:43:08.181
+!MESSAGE Removing part descriptor with the 'tern.eclipse.ide.ui.views.TernOutlineView' id and the 'Tern Outline' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+!SESSION 2019-05-23 09:45:56.221 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/CLEVERSONAVELINOFerr/Desktop/softwares/workspace-facear/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-23 09:46:08.404
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-23 09:46:11.304
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-23 09:48:00.041
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-23 09:48:00.047
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-23 09:48:00.051
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-23 09:48:00.056
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2019-05-23 09:50:01.900
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=335225
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2019-05-23 09:51:55.540
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=335225
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2019-05-23 09:52:46.047
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=335225
+!SESSION 2019-05-23 09:59:46.988 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Users/CLEVERSONAVELINOFerr/Desktop/softwares/workspace-facear/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-23 10:00:09.938
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-23 10:00:13.599
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 10:02:17.308
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 10:02:17.335
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 10:03:09.143
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 10:03:09.149
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 10:15:29.346
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 10:15:29.395
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-05-23 13:17:12.783 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-23 13:18:34.405
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-23 13:18:39.130
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 13:21:57.997
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 13:21:58.002
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 13:37:43.219
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 13:37:43.224
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 13:38:07.022
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 13:38:07.030
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-05-23 16:42:17.748 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-23 16:42:55.973
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-23 16:43:01.290
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 16:48:59.022
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 16:48:59.027
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 16:54:47.263
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 16:54:47.268
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 16:58:41.419
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-23 16:58:41.425
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-23 16:58:50.011
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-23 16:58:52.092
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+!SESSION 2019-05-23 19:12:05.501 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-23 19:13:43.598
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-23 19:13:48.426
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2019-05-24 10:38:59.044 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-24 10:40:32.901
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-24 10:40:43.929
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-24 10:45:04.962
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 10:45:37.449
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 10:45:37.456
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 10:48:41.586
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 10:48:41.593
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-24 10:48:45.044
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-24 10:50:34.413
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+!SESSION 2019-05-24 17:06:57.484 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-24 17:08:54.157
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-24 17:08:59.266
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 17:09:32.925
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 17:09:32.933
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-05-24 19:26:40.226 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-24 19:28:25.334
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-24 19:28:35.049
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 19:39:33.473
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 19:39:33.482
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-05-24 19:46:34.779 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-24 19:46:48.298
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-24 19:46:53.019
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 20:09:57.871
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-24 20:09:57.878
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-05-29 11:45:53.214 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-29 11:46:48.489
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-29 11:46:52.901
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-05-29 11:47:25.905
+!MESSAGE Launch configuration JwtApplication references closed project jwt
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JwtApplication references closed project jwt
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1577)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-05-29 11:47:25.905
+!MESSAGE Launch configuration JwtApplication references closed project jwt
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-05-29 11:47:25.923
+!MESSAGE Launch configuration JwtApplication references closed project jwt
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JwtApplication references closed project jwt
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1577)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-05-29 11:47:25.923
+!MESSAGE Launch configuration JwtApplication references closed project jwt
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-05-29 11:47:25.937
+!MESSAGE Launch configuration JwtApplication references closed project jwt
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JwtApplication references closed project jwt
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1577)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-05-29 11:47:25.937
+!MESSAGE Launch configuration JwtApplication references closed project jwt
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 11:48:45.472
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 11:48:48.152
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-29 11:48:57.889
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-29 11:48:57.894
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 11:51:04.569
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-29 11:51:38.347
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-29 11:51:38.355
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-29 11:53:15.584
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-29 11:53:15.591
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 11:53:44.309
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 11:57:22.601
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 11:58:17.825
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:04:57.518
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:07:03.772
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:08:01.397
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:08:59.841
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:09:37.922
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:14:16.888
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:20:34.529
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:26:12.456
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:26:25.910
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 12:36:38.654
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+!SESSION 2019-05-29 19:14:00.406 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-29 19:15:36.767
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CLEVERSONAVELINOFerr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-05-29 19:15:40.920
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Bad Gateway. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Bad Gateway
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2019-05-29 19:22:17.490
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1007)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1534)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1615)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1521)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:90)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:117)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:93)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:91)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:189)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
