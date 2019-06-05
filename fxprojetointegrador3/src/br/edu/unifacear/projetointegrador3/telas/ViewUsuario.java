@@ -1,5 +1,9 @@
 package br.edu.unifacear.projetointegrador3.telas;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -17,12 +21,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class ViewUsuario extends Application implements Initializable {
@@ -37,14 +43,55 @@ public class ViewUsuario extends Application implements Initializable {
 	@FXML TextField txtNome;
 	@FXML TextField txtLogin;
 	@FXML TextField txtSenha;
+	
+	@FXML Button carregarArquivo;
+	
+	@FXML Label txtNomeDoArquivo;
 
 	private Usuario usuario;
+	private byte[] arquivo;
+	private String nomeDoArquivo;
+	
+	@FXML public void download() {
+		try {
+			if (arquivo != null && arquivo.length > 0) {
+				File file = new File("c:\\temp\\" + nomeDoArquivo);
+				FileOutputStream fos = new FileOutputStream(file);
+				fos.write(arquivo);
+
+				Desktop.getDesktop().open(file);
+				fos.close();
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	
+	@FXML public void carregarArquivo(ActionEvent event) {
+		
+		try {
+			FileChooser fileChooser = new FileChooser();
+			fileChooser.setTitle("Abrir");
+			File file = fileChooser.showOpenDialog(new Stage());
+			arquivo = new byte[(int) file.length()];
+			nomeDoArquivo = file.getName();
+			txtNomeDoArquivo.setText(nomeDoArquivo);
+			
+			FileInputStream fis = new FileInputStream(file);
+			fis.read(arquivo);
+			fis.close();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}		
+	}
 	
 	@FXML public void salvar(ActionEvent event) {
 		Usuario usuario = new Usuario();
 		usuario.setNome(txtNome.getText());
 		usuario.setLogin(txtLogin.getText());
 		usuario.setSenha(txtSenha.getText());
+		usuario.setNomeDoArquivo(nomeDoArquivo);
+		usuario.setArquivo(arquivo);
 
 		Dao<Usuario> usuarioDao = new GenericDao<Usuario>();
 		
@@ -95,10 +142,14 @@ public class ViewUsuario extends Application implements Initializable {
 			public void handle(MouseEvent event) {
 				if (event.getButton().equals(MouseButton.PRIMARY) && 
 						event.getClickCount() == 2){
-					Usuario usuario = tabelaUsuario.getSelectionModel().getSelectedItem();
+					usuario = tabelaUsuario.getSelectionModel().getSelectedItem();
+					
 					txtId.setText(usuario.getId().toString());
 					txtNome.setText(usuario.getNome());
-					txtLogin.setText(usuario.getLogin());					
+					txtLogin.setText(usuario.getLogin());	
+					txtNomeDoArquivo.setText(usuario.getNomeDoArquivo());
+					arquivo = usuario.getArquivo();
+					nomeDoArquivo = usuario.getNomeDoArquivo();
 				}
 
 			}
